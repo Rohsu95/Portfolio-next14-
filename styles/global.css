@@ -1,0 +1,12 @@
+:root {
+  --main-background-color: #ecf2ff;
+  --main-font-family: serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: var(--main-font-family);
+  background-color: var(--main-background-color);
+}

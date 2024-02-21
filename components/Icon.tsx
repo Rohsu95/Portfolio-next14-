@@ -28,7 +28,7 @@ export const SideIcon = () => {
       </s.IconContainer>
       <s.IconContainer>
         <a
-          href="https://side-project-de46.vercel.app/"
+          href="https://side-project-lilac.vercel.app/"
           target="_blank"
           rel="noreferrer noopener"
         >

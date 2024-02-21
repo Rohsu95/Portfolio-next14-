@@ -3,9 +3,7 @@ import { styled } from "styled-components";
 import Slider from "react-slick";
 import { StyleProps } from "../../types/project";
 
-export const MainContainer = styled.main`
-  height: 100vh;
-`;
+export const MainContainer = styled.main``;
 
 export const TitleContainer = styled.header`
   display: flex;

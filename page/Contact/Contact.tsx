@@ -134,7 +134,7 @@ const Contact = () => {
 };
 
 const Container = styled.div`
-  height: 90vh;
+  /* height: 90vh; */
 `;
 const ImgContainer = styled.section`
   display: flex;

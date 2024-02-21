@@ -43,7 +43,7 @@ export const PortIcon = () => {
     <s.Icon>
       <s.IconContainer>
         <a
-          href="https://github.com/Rohsu95/Portfolio"
+          href="https://github.com/Rohsu95/Portfolio-next14-"
           target="_blank"
           rel="noreferrer noopener"
         >

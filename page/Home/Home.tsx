@@ -1,5 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
+import Image from "next/image";
+import MainImg from "../../public/image/main.jpg";
 import { FaGithub } from "react-icons/fa";
 import { RxNotionLogo } from "react-icons/rx";
 import { IoPerson } from "react-icons/io5";
@@ -11,7 +13,14 @@ const Home = () => {
     <MainContainer>
       <TwinsContainer>
         <ImgContainer>
-          <img className="mainImg" src="/image/main.jpg" alt="mainImg" />
+          <Image
+            className="mainImg"
+            src={MainImg}
+            alt="mainImg"
+            width={410}
+            height={540}
+            priority
+          />
         </ImgContainer>
 
         <ArticleContainer>

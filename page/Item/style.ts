@@ -40,10 +40,10 @@ export const ArticleContainer = styled.article`
     align-items: center;
   }
 `;
+
 // 이미지 전체 크기
 export const Img = styled.img`
   height: 400px;
-
   @media ${theme.media.height} {
     height: 35vh;
     height: 400px;
@@ -58,7 +58,6 @@ export const Img = styled.img`
 export const SliderStyle = styled(Slider)`
   width: 500px;
   height: 430px;
-
   .slick-arrow {
     &::before {
       color: ${theme.colors.font};

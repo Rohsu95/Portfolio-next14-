@@ -16,11 +16,12 @@ const Port = () => {
           <s.Content>
             <s.ProjectIntro>프로젝트 소개</s.ProjectIntro>
             <s.ContentRole>
-              프론트엔드 취업을 위한 프로젝트입니다. 기존의 react 프로젝트에서
+              프론트엔드 취업을 위한 프로젝트입니다.
               <span className="keyPoint">
                 {" "}
-                next.js 14 버전으로 마이그레이션 함으로써 빠른 렌더링으로 초기
-                로딩 속도를 최적화
+                새로운 기술에 대한 호기심을 충족시키고, 실제 업무에서 적용
+                가능한 기술 스택에 대한 경험을 쌓기 위해 react 프로젝트를
+                next.js 14버전으로 전환
               </span>
               하였으며, 포트폴리오 페이지에서
               <span className="keyPoint">

@@ -1,10 +1,12 @@
 "use client";
 
-import Project from "@/page/Project/Project";
-import Home from "../page/Home/Home";
 import { styled } from "styled-components";
 import Total from "@/page/Total/Total";
-import Contact from "@/page/Contact/Contact";
+import { lazy } from "react";
+
+const Home = lazy(() => import("../page/Home/Home"));
+const Project = lazy(() => import("../page/Project/Project"));
+const Contact = lazy(() => import("../page/Contact/Contact"));
 
 const Scrolls = () => {
   return (

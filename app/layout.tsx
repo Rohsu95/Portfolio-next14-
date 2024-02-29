@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/global.css";
-import Scrolls from "@/components/scroll";
 import Header from "@/components/header/header";
 import RecoilRootWrapper from "@/recoil/RecoilRoot";
-import { Suspense } from "react";
 import StyledComponentsRegistry from "@/lib/registry";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,13 +21,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <StyledComponentsRegistry>
-          <Suspense fallback={<h1>새로 고침 중 </h1>}>
-            <RecoilRootWrapper>
-              <Header />
-              <Scrolls />
-              {children}
-            </RecoilRootWrapper>
-          </Suspense>
+          <RecoilRootWrapper>
+            <Header />
+            {children}
+          </RecoilRootWrapper>
         </StyledComponentsRegistry>
       </body>
     </html>

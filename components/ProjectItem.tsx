@@ -5,6 +5,7 @@ import { ProjectItemProps } from "../types/project";
 import { Link } from "react-scroll";
 import { useRecoilState } from "recoil";
 import { idState } from "@/recoil/atoms";
+import Image from "next/image";
 
 export const ProjectItem: React.FC<ProjectItemProps> = ({
   project,
@@ -42,7 +43,7 @@ export const ProjectItem: React.FC<ProjectItemProps> = ({
   return (
     <SectionContainer onMouseMove={handleMouseMove} onMouseOut={handleMouseOut}>
       <Link to="3" spy={true} smooth={true} onClick={handleItem}>
-        <Img src={url} alt="mainImg" />
+        <Img src={url} alt="mainImg" loading="lazy" width={550} height={400} />
       </Link>
     </SectionContainer>
   );
@@ -60,9 +61,7 @@ const SectionContainer = styled.section`
   }
 `;
 
-const Img = styled.img`
-  width: 550px;
-  height: 400px;
+const Img = styled(Image)`
   border-radius: 15px;
   @media ${theme.media.height} {
     width: 400px;

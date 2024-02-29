@@ -7,7 +7,8 @@
 - 기본 소개 및 깃 허브와 노션 링크 
   
 # Project
-![포폴2](https://github.com/Rohsu95/Portfolio-next14-/assets/97446711/b3c4b5eb-72a3-4f80-8a5f-475f8f008327)
+![포폴2](https://github.com/Rohsu95/Portfolio-next14-/assets/97446711/5ffa032b-0db4-4ed6-a413-39e7af5f3f37)
+
 - Project 이미지를 마우스 이벤트에 반응하여 이미지를 동적으로 회전시키는 기능을 구현
 - Project 미리보기를 위해 slick과 gif을 사용하여 슬라이드 구현
   
